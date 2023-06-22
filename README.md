@@ -1,2 +1,3 @@
-# image_registration
-# image_registration
+# Image Registration
+
+This is a project for image registration. The goal is to find the transformation between two images. The transformation is a combination of translation, rotation, scaling and shearing. The transformation is found by minimizing the sum of squared differences between the two images. The images are first converted to grayscale and then normalized. The transformation is found by using the Levenberg-Marquardt algorithm. The algorithm is implemented in C++ and the GUI is implemented in Python using PyQt5. The GUI is used to load the images and to visualize the transformation. The transformation is visualized by overlaying the transformed image on top of the reference image. The transformation is also visualized by showing the difference between the transformed image and the reference image. The GUI also shows the sum of squared differences between the two images. The GUI is shown in the figure below.

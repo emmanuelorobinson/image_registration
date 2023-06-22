@@ -4,5 +4,8 @@ Capture/*
 Crop/*
 Results/*
 DJI Dataset/*
+ultralytics
+ByteTrack
+__pycache__
 
 ```
